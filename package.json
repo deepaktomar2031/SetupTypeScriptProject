@@ -1,0 +1,32 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Tetris Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev && npm-run-all --parallel watch serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "watch": "webpack --watch",
+    "serve": "cd dist && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomar123/TetrisGame.git"
+  },
+  "author": "Deepak Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomar123/TetrisGame/issues"
+  },
+  "homepage": "https://github.com/tomar123/TetrisGame#readme",
+  "keywords": [],
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
